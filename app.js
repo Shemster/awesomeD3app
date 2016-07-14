@@ -22,11 +22,11 @@ app.set('views', __dirname + '/views');
 app.get('/', function (req, res) {
 
 	// by default, ejs is trying to render templates from views folder
-  	res.render('d3_graph.html');
+  	res.render('rats.html');
 });
 
-app.get('/test', function (req, res) {
-  	res.render('test.html');
+app.get('/rats', function (req, res) {
+  	res.render('rats.html');
 });
 
 //heroku assigns app port randomly. DONT WORRY ABOUT IT
